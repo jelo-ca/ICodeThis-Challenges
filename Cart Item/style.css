@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: default;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.main-container {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  min-width: 600px;
+  max-width: 800px;
+  gap: 3rem;
+  margin: 4rem;
+}
+
+.item-img {
+  height: 200px;
+}
+
+.shipping {
+  background-color: black;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  display: inline;
+}
+
+.item-name {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+
+.current-price {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.offer {
+  color: rgb(130, 130, 130);
+}
+
+button {
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  margin: 1.5rem 0;
+}
+
+.add-cart-btn {
+  width: 100%;
+  height: 3rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(59, 130, 246);
+  box-shadow: 0px 10px rgb(37, 99, 235);
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.options-button {
+  position: relative;
+  height: 3rem;
+  width: 100%;
+  gap: 1rem;
+  text-align: center;
+  border: 3px solid rgb(213, 213, 213);
+  background-color: rgb(0, 0, 0, 0);
+}
+
+.icon {
+  height: 1rem;
+  margin-right: 1rem;
+}

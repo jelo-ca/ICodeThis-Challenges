@@ -1,0 +1,94 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.circle {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  z-index: 1;
+  border-radius: 30rem;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(100px);
+}
+
+.blue {
+  background-color: #aef1f5;
+  top: 1rem;
+}
+.orange {
+  background-color: #ffddb6;
+  right: 100px;
+}
+.purple {
+  background-color: #edbbff;
+  bottom: 1rem;
+  left: 2rem;
+}
+
+h2 {
+  font-family: serif;
+  margin-top: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.pricing-container {
+  background: rgba(245, 245, 245, 0.555);
+  width: 600px;
+  min-width: 600px;
+  display: flex;
+  flex-direction: row;
+  border: 1rem solid white;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  gap: 1rem;
+  z-index: 2;
+}
+
+.pricing {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pricing span {
+  font-size: 1.5rem;
+}
+
+.user-limit {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.description {
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+.free-btn {
+  background-color: #edbbff;
+}
+.standard-btn {
+  background-color: #aef1f5;
+}
+.premium-btn {
+  background-color: #ffddb6;
+}
+.btn {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  border: none;
+}
